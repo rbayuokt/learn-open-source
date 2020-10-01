@@ -10,9 +10,7 @@
 - commit (`git commit -m "add my bio @username"`) and push (`git push origin first-pr`)
 - Create a pull request
 - Star this repository
+- Wait for Pull Request to merge
+- Celebrate - you've done your first pull request! 
 
-# How to make your first Pull Request
-
-## Wait for Pull Request to merge
-
-## Celebrate - you've done your first pull request! 
+# Screenshoot
