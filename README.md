@@ -1,7 +1,8 @@
-## This project is perfect for your first pull request
+## 
 
 ## Instructions-
-
+<p align="center>**This project is perfect for your first pull request**</p>
+          
 - Fork this Repository using the button at the top
 - Clone your forked repository to your pc
 - Create a new branch for your modifications (ie. `git branch first-pr` and check it out `git checkout first-pr` and `git checkout -b first-pr`)
@@ -14,3 +15,4 @@
 - Celebrate - you've done your first pull request! 
 
 # Screenshoot
+<img src="screenshoots/1.png" width="800px" /><br>
