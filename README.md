@@ -1,5 +1,3 @@
-## 
-
 ## How To 
 <p align="center"> <b>This project is perfect for your first pull request</b> </p>
           
