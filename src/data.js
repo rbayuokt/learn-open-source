@@ -5,6 +5,12 @@ export const members = [
         "link": "https://github.com/rbayuokt",
         "linkText": "@rbayuokt"    
     },
+    {
+        "name" : "Rizky Abdul Ghani S",
+        "quotes" : "Learn to be better",
+        "link": "https://github.com/rizkyghani16",
+        "linkText": "@rizkyghani16"    
+    },
 ]
 
 /**
