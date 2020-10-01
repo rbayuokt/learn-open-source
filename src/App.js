@@ -22,7 +22,7 @@ function App() {
           </Col>
         </Row>
 
-        <Row>
+        <Row className="mt-5">
           {
             members.map((datana, index) => (
               <KartuNama
