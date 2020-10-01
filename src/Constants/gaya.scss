@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&family=Work+Sans:wght@100;300;400;500;700&display=swap");
+
+//init
+
+//font
+$poppins: "Poppins", sans-serif;
+$worksans: "Work Sans", sans-serif;
+
+//color
+$putih: #ffffff;
+$hitam: #1c1c1c;
+$biru: #072540;
+$ungu: #ff8ae2;
+$ungu2: #ff8ae2;
+
+//scrollbar
+/* Track */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: $ungu;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: $ungu;
+}
+
+body {
+  background-color: $biru;
+  color: $putih;
+  font-family: $poppins;
+  overflow-x: hidden !important;
+}
+
+.border-custom {
+  padding: 30px 40px;
+  transition: all 0.2s ease-in-out;
+  border: 2px dotted $ungu;
+
+  &:hover {
+    border: 8px dashed $ungu;
+    border-radius: 12px;
+  }
+
+  h3 {
+    font-family: $poppins;
+    font-weight: bold;
+    line-height: 135%;
+  }
+
+  p {
+    font-family: $worksans;
+    color: $putih;
+    opacity: 0.8;
+    font-size: 18px;
+    line-height: 135%;
+  }
+
+  a {
+    color: $ungu2;
+  }
+}
+

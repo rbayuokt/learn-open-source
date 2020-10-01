@@ -1,24 +1,47 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './Constants/gaya.scss';
+import { Container, Row, Col, Button, Navbar, Nav, NavDropdown } from 'react-bootstrap';
+
+//komponen
+import KartuNama from './Components/KartuNama';
+
+//data
+import { members } from './data'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Container>
+        <Row>
+          <Col xs={12} md={12} lg={12}>
+            <img src="/hacktoberfest.svg" className="img-fluid mx-auto d-block py-5" width="450" alt="" />
+          </Col>
+        </Row>
+
+        <Row>
+          {
+            members.map((datana, index) => (
+              <KartuNama
+                name={datana.name}
+                quotes={datana.quotes}
+                link={datana.link}
+                linkText={datana.linkText} />
+            ))
+          }
+        </Row>
+
+
+        <Row className="mt-5">
+          <Col xs={12} md={12} lg={12}>
+            <div className="py-4">
+              <p class="text-center">Made With ❤️‍ in Cimahi <br /> by @rbayuokt</p>
+            </div>
+          </Col>
+        </Row>
+
+      </Container>
     </div>
   );
 }
