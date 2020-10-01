@@ -16,7 +16,9 @@ function App() {
       <Container>
         <Row>
           <Col xs={12} md={12} lg={12}>
-            <img src="/hacktoberfest.svg" className="img-fluid mx-auto d-block py-5" width="450" alt="" />
+            <a href="https://github.com/rbayuokt/learn-open-source" target="_nblank">
+              <img src="/hacktoberfest.svg" className="img-fluid mx-auto d-block py-5" width="450" alt="" />
+            </a>
           </Col>
         </Row>
 
