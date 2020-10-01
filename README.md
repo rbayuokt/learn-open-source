@@ -1,7 +1,7 @@
 ## 
 
-## Instructions-
-<p align="center>**This project is perfect for your first pull request**</p>
+## How To 
+<p align="center">**This project is perfect for your first pull request**</p>
           
 - Fork this Repository using the button at the top
 - Clone your forked repository to your pc
