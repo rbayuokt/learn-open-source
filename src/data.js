@@ -16,6 +16,7 @@ export const members = [
         "link": "https://github.com/rizkyghani16",
         "linkText": "@rizkyghani16"    
     },
+    {
         "name" : "Hary Suryanto",
         "quotes" : "Start it, You won't regret it.",
         "link": "https://github.com/harysuryanto",
