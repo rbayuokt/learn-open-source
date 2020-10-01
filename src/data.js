@@ -6,6 +6,11 @@ export const members = [
         "linkText": "@rbayuokt"    
     },
     {
+        "name" : "Rizky Abdul Ghani S",
+        "quotes" : "Learn to be better",
+        "link": "https://github.com/rizkyghani16",
+        "linkText": "@rizkyghani16"    
+    },
         "name" : "Hary Suryanto",
         "quotes" : "Start it, You won't regret it.",
         "link": "https://github.com/harysuryanto",
