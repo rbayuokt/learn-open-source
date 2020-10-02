@@ -35,6 +35,12 @@ export const members = [
         "link": "https://github.com/sahmura/",
         "linkText": "@sahmura"    
      },
+     {
+         "name" : "Doni Adi Kuusuma",
+         "quotes" : "i don't believe in quotes, just do what you need and what you want",
+         "link" : "https://github.com/btrx/",
+         "linkText ": "@btrx"
+     },
 ]
 
 /**
