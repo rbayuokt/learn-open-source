@@ -41,6 +41,12 @@ export const members = [
          "link" : "https://github.com/btrx/",
          "linkText ": "@btrx"
      },
+     {
+        "name" : "Nenza Nurfirmansyah",
+        "quotes" : "Pijaki, jalani, nikmati.",
+        "link": "https://github.com/nenzan/",
+        "linkText": "@nenzan"    
+     },
 ]
 
 /**
