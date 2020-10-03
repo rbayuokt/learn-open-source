@@ -47,6 +47,12 @@ export const members = [
         "link": "https://github.com/nenzan/",
         "linkText": "@nenzan"    
      },
+     {
+        "name" : "Muhamad Biki Hamzah",
+        "quotes" : "World is just mampir ngombe",
+        "link": "https://github.com/bicky33/",
+        "linkText": "@bicky33"    
+     },
 ]
 
 /**
