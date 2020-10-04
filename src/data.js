@@ -53,6 +53,12 @@ export const members = [
         "link": "https://github.com/bicky33/",
         "linkText": "@bicky33"    
      },
+     {
+        "name" : "Ferdhika Yudira",
+        "quotes" : "Menunggu pagi.",
+        "link": "https://github.com/ferdhika31",
+        "linkText": "@ferdhika31"    
+     },
 ]
 
 /**
