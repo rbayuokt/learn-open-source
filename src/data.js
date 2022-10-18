@@ -6,6 +6,12 @@ export const members = [
         "linkText": "@rbayuokt"    
     },
     {
+      "name" : "Ferdhika Official",
+      "quotes" : "Learn open source.",
+      "link": "https://github.com/dikawebid",
+      "linkText": "@dikawebid"    
+   },
+    {
         "name" : "Fladio Armandika",
         "quotes" : "skyrim belongs to the nords",
         "link": "https://github.com/fladioarmandika",
