@@ -65,6 +65,12 @@ export const members = [
         "link": "https://github.com/ferdhika31",
         "linkText": "@ferdhika31"    
      },
+     {
+      "name" : "Mayank Khatri",
+      "quotes" : "You have to be odd to be number one.",
+      "link": "https://github.com/MAYANK816",
+      "linkText": "@MAYANK816"    
+   }
 ]
 
 /**
