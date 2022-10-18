@@ -1,14 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './Constants/gaya.scss';
-import { Container, Row, Col, Button, Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./Constants/gaya.scss";
 
 //komponen
-import KartuNama from './Components/KartuNama';
+import KartuNama from "./Components/KartuNama";
 
 //data
-import { members } from './data'
+import { members } from "./data";
+import Logo from "./Components/Logo";
 
 function App() {
   return (
@@ -16,33 +16,42 @@ function App() {
       <Container>
         <Row>
           <Col xs={12} md={12} lg={12}>
-            <a href="https://github.com/rbayuokt/learn-open-source" target="_nblank">
-              <img src="/hacktoberfest.svg" className="img-fluid mx-auto d-block py-5" width="450" alt="" />
-            </a>
+            {/* <a
+              href="https://github.com/rbayuokt/learn-open-source"
+              target="_nblank"
+            >
+              <img
+                src="/hacktoberfest.svg"
+                className="img-fluid mx-auto d-block py-5"
+                width="450"
+                alt=""
+              />
+            </a> */}
+            <Logo />
           </Col>
         </Row>
 
         <Row className="mt-5">
-          {
-            members.map((datana, index) => (
-              <KartuNama
-                name={datana.name}
-                quotes={datana.quotes}
-                link={datana.link}
-                linkText={datana.linkText} />
-            ))
-          }
+          {members.map((datana, index) => (
+            <KartuNama
+              key={index}
+              name={datana.name}
+              quotes={datana.quotes}
+              link={datana.link}
+              linkText={datana.linkText}
+            />
+          ))}
         </Row>
-
 
         <Row className="mt-5">
           <Col xs={12} md={12} lg={12}>
             <div className="py-4">
-              <p class="text-center">Made With ❤️‍ in Cimahi <br /> by @rbayuokt</p>
+              <span className="text-center">
+                Made With ❤️‍ in Cimahi <br /> by @rbayuokt
+              </span>
             </div>
           </Col>
         </Row>
-
       </Container>
     </div>
   );
