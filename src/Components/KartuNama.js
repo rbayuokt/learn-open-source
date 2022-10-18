@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Button, Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import { Col } from 'react-bootstrap';
 
 function KartuNama(props) {
     return (
