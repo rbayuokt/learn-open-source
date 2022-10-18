@@ -9,13 +9,14 @@ import KartuNama from "./Components/KartuNama";
 //data
 import { members } from "./data";
 import Logo from "./Components/Logo";
+import TitleLogo from "./Components/TitleLogo";
 
 function App() {
   return (
     <div className="App">
       <Container>
         <Row>
-          <Col xs={12} md={12} lg={12}>
+          <Col xs={12} md={12} lg={12} className="text-center">
             {/* <a
               href="https://github.com/rbayuokt/learn-open-source"
               target="_nblank"
@@ -28,6 +29,7 @@ function App() {
               />
             </a> */}
             <Logo />
+            <TitleLogo />
           </Col>
         </Row>
 
