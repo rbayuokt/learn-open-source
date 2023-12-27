@@ -70,7 +70,13 @@ export const members = [
       "quotes" : "You have to be odd to be number one.",
       "link": "https://github.com/MAYANK816",
       "linkText": "@MAYANK816"    
-   }
+   },
+      {
+         "name" : "Ali Aldawoodi",
+         "quotes" : "Solutions give me joy.",
+         "link": "https://github.com/Ali-Aldawoodi",
+         "linkText": "@Ali-Aldawoodi"    
+      },
 ]
 
 /**
